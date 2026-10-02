@@ -1,0 +1,104 @@
+/*estilização universal*/
+*{
+margin: 0;
+padding: 0;
+}
+
+/*estilização do corpo*/
+body{
+font-size: 16px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: #c4c4c4;
+}
+
+/*estilização do titulo 1*/
+h1{
+color: #252525;
+font-size: 40px;
+}
+
+/*estilização do titulo 2*/
+h2{
+color: #0066cc;
+}
+
+/*estilização do cabaçário*/
+#header{
+background-color: #0066cc;
+padding: 15px;
+text-align: center;
+}
+
+/*preenchimento do menu*/
+#logo,#menu{
+padding: 10px;
+}
+
+/*estilização do cabeçário com o link*/
+#header a:link, #header a:visited{
+color:  #ffffff;
+padding: 8px 12px;
+}
+
+
+#header a:houver{
+color: #0066cc;
+background:  #ffffff;
+text-decoration: none;
+}
+
+.white{
+    color: #ffffff;
+}
+
+/*estilização do conteúdo*/
+#content{
+width: 920px;
+margin: 0px;
+padding: 15px;
+}
+
+/*estilização das postagens*/
+#posts{
+width: 660px;
+float: left;
+}
+
+/*estilização do post*/
+#post{
+padding: 20px;
+margin-bottom: 20px;
+background: #ffffff;
+text-align: justify;
+}
+
+.post-right{
+font-size: 13px;
+padding: 5px;
+border-bottom: 1px dotted #cccccc;
+}
+
+a{
+text-decoration: none;
+}
+
+/*estilização do link*/
+a:link, a:visited{
+color: #0066cc;
+}
+
+a:hover{
+text-decoration: underline;
+background-color: #cccccc;
+}
+
+/*estilização do rodapé*/
+#footer{
+clear: both;
+text-align: center;
+padding: 15px;
+background: #ffffff;
+color: #0066cc;
+}
+
+
